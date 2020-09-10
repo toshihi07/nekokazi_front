@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Noto%2BSans%2BJP%3A100%2C300%2C400%2C500%2C700%2C900");
+@import url('https://fonts.googleapis.com/css2?family=Noto%2BSans%2BJP%26family%3DPlayball%26display%3Dswap');
+
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+    margin         : 0;
+    padding        : 0;
+    border         : 0;
+    font-size      : 100%;
+    font           : inherit;
+    vertical-align : baseline;
+    color          : #43444e;
+    font-family    : 'Noto Sans JP', sans-serif;
+
+}
+
+br {
+    font-family : 'Noto Sans JP', sans-serif;
+
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display : block;
+}
+
+body {
+    overflow-x  : hidden;
+    line-height : 1;
+}
+
+ul {
+    padding : 0px;
+    margin  : 0px;
+    display : flex;
+}
+
+ul li {
+    margin-right : 30px;
+}
+
+ol, ul {
+    list-style : none;
+}
+
+blockquote, q {
+    quotes : none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content : '';
+    content : none;
+}
+
+table {
+    border-collapse : collapse;
+    border-spacing  : 0;
+}
+
+body {
+    -webkit-text-size-adjust : none;
+}
+
+mark {
+    background-color : transparent;
+    color            : inherit;
+}
+
+input::-moz-focus-inner {
+    border  : 0;
+    padding : 0;
+}
+
+select {
+    /* -moz-appearance    : none;
+    -webkit-appearance : none;
+    -ms-appearance     : none;
+    appearance         : none; */
+}
+
+input, select, textarea {
+    /* -moz-appearance    : none;
+    -webkit-appearance : none;
+    -ms-appearance     : none;
+    appearance         : none; */
+    border             : 1px solid #C1C1C1;
+    font-size          : 14px;
+    color              : #909090;
+    -moz-box-sizing    : border-box;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box;
+    padding            : 5px;
+    border-radius: 0;
+}
+
+textarea.ctc-reset {
+    outline    : none;
+    box-shadow : none;
+    padding    : 0;
+    width      : 100%;
+    max-width  : 100%;
+    background : transparent;
+    border     : none;
+    resize     : none;
+}
+
+h1 {
+    font-size   : 30px;
+    line-height : 34px
+}
+
+h2 {
+    font-size   : 26px;
+    line-height : 30px
+}
+
+h3 {
+    font-size   : 22px;
+    line-height : 26px
+}
+
+h4 {
+    font-size   : 18px;
+    line-height : 22px
+}
+
+h5 {
+    font-size   : 16px;
+    line-height : 20px
+}
+
+h6 {
+    font-size   : 14px;
+    line-height : 18px
+}
+
+h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
+    margin-right : 5px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /**/
+    font-family : 'Noto Sans JP', sans-serif, !important;
+    color       : #1F263B;
+    margin-top  : 5px;
+    text-shadow : none;
+    font-weight : normal;
+
+}
+
+/* a-style */
+a {
+    color           : #222;
+    text-decoration : none !important;
+    outline         : none !important;
+    border: none;
+}
+
+a:hover {
+    text-decoration : none !important;
+    transition: all 0.2s;
+}
+a:focus {
+    outline         : none !important;
+}
+
+a:active {
+    text-decoration : none !important;
+}
+
+a {
+    /* -moz-transition    : border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition : border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition     : border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition         : border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out; */
+}
+
+button {
+    border     : 0px;
+    padding    : 0px;
+    font-size  : inherit;
+    cursor     : pointer;
+    background : unset;
+}
+
+.ctc-uk-accordion-title::before {
+    content          : unset !important;
+    width            : unset !important;
+    height           : unset !important;
+    margin-left      : unset !important;
+    float            : unset !important;
+    background-image : unset !important;
+}
+
+.ctc-datepicker-panel ul {
+    display : unset;
+}
+
+
+.test-enter-active, .test-leave-active {
+    transition: opacity 2s;
+}
+.test-enter, .test-leave-active {
+opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

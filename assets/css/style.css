@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* base style */
+body {
+  box-sizing: border-box;
+}
+
+li a {
+  color:black;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+/* module style */
